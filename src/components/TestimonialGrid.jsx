@@ -3,12 +3,14 @@ import imgJeanette from "../images/image-jeanette.jpg";
 import imgJonathan from "../images/image-jonathan.jpg";
 import imgKira from "../images/image-kira.jpg";
 import imgPatrick from "../images/image-patrick.jpg";
+import quotation from "../images/bg-pattern-quotation.svg";
 const TestimonialGrid = () => {
   return (
     <div className="main-container">
       <div className="left-section">
         <div className="left-top-section">
           <div className="testimonial-1">
+            <img className="quote" src={quotation} alt="quote" />
             <div className="header">
               <img className="picture" src={imgDaniel} alt="Daniel" />
               <div className="name-section">
